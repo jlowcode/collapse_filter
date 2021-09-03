@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<form>
+    <fields addfieldpath="/administrator/components/com_fabrik/models/fields" name="params">
+        <fieldset name="plg-list-collapse_filter">
+            <field
+				name="collapse_default"
+				type="list"
+				default="0"
+				label="PLG_FABRIK_LIST_DEFAULT_ELEMENT_LABEL"
+                description="PLG_FABRIK_LIST_DEFAULT_ELEMENT_DESC"
+				filter="integer"
+				>
+				<option value="0">PLG_ELEMENT_FIELD_CONTRACT</option>
+				<option value="1">PLG_ELEMENT_FIELD_EXPAND</option>
+			</field>
+
+            <field name="collapse_all"
+				type="radio"
+				class="btn-group"
+				default="1"
+				label="PLG_FABRIK_LIST_COLLAPSE_ALL_LABEL"
+				description="PLG_FABRIK_LIST_COLLAPSE_ALL_DESC"
+				repeat="true">
+					<option value="0">PLG_ELEMENT_FIELD_NO</option>
+					<option value="1">PLG_ELEMENT_FIELD_YES</option>
+			</field>
+        </fieldset>
+    </fields>
+</form>
